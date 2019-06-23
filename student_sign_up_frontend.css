@@ -1,0 +1,15 @@
+#signup{
+	font-size: 30px;
+	height: 50px;
+	width: 300px;
+	transform: translate(500px,150px);
+	
+}
+#form{
+	height: 100px;
+	width: 300px;
+	transform: translate(500px,200px);
+}
+#submit{
+	transform: translateX(130px);
+}
