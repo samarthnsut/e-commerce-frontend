@@ -1,3 +1,10 @@
+#main{
+	transform: translate(450px,150px);
+	height: 300px;
+	width: 400px;
+	background-color: green;
+}
+
 #signup{
 	font-size: 30px;
 	height: 50px;
