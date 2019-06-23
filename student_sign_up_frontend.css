@@ -5,18 +5,19 @@
 	background-color: green;
 }
 
+
 #signup{
 	font-size: 30px;
 	height: 50px;
 	width: 300px;
-	transform: translate(500px,150px);
+	transform: translate(50px,40px);
 	
 }
 #form{
 	height: 100px;
 	width: 300px;
-	transform: translate(500px,200px);
+	transform: translate(50px,90px);
 }
 #submit{
-	transform: translateX(130px);
+	transform: translateX(120px);
 }
