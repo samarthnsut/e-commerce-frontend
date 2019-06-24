@@ -1,0 +1,41 @@
+#main{
+	transform: translate(450px,150px);
+	height: 300px;
+	width: 400px;
+	background-color: green;
+}
+
+
+#signup{
+	font-size: 30px;
+	height: 50px;
+	width: 300px;
+	transform: translate(50px,40px);
+	
+}
+#form{
+	height: 100px;
+	width: 300px;
+	transform: translate(50px,90px);
+}
+#submit{
+	transform: translateX(121px);
+}
+#forgot{
+    width: 146px;
+    height: 35px;
+    padding: 2px;
+
+    margin: 2px;
+    transform: translate(450px,150px);
+    font-size: 14px;
+}
+#sign{
+	
+    width: 246px;
+    height: 35px;
+    padding: 2px;
+    margin: 2px;
+    transform: translate(602px,113px);
+    font-size: 14px;
+}
