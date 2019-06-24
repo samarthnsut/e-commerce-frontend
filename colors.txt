@@ -1,0 +1,3 @@
+yellow: #feda6a
+dark grey: #393f4d
+light grey: #f2f2f2
