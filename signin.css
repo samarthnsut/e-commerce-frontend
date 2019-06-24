@@ -1,25 +1,43 @@
-#main{
-	transform: translate(450px,150px);
-	height: 300px;
-	width: 400px;
-	background-color: green;
+html
+{
+	height: 100%;
 }
-
-
-#signup{
-	font-size: 30px;
-	height: 50px;
-	width: 300px;
-	transform: translate(50px,40px);
-	
+body
+{
+	background-image: url(background.jfif);
+	background-size: 100% 100%;
+	max-height: 100%;
+}
+#main{
+	border: ;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 200px;
+	box-shadow: 10px 10px;
+	height: 400px;
+	width: 400px;
+	background-color: #feda6a;
+}
+.label
+{
+	text-align: left;
+	padding-left: 50px;
+}
+#signup
+{
+	text-align: center;
+}
+h1
+{
+	padding: 50px;
+	padding-bottom: 20px;
 }
 #form{
-	height: 100px;
-	width: 300px;
-	transform: translate(50px,90px);
+	padding-left: 0px;
+	text-align: center;
 }
 #submit{
-	transform: translateX(121px);
+	 background-color: #393f4d;
 }
 #forgot{
     width: 146px;
@@ -27,15 +45,24 @@
     padding: 2px;
 
     margin: 2px;
-    transform: translate(450px,150px);
     font-size: 14px;
 }
-#sign{
-	
-    width: 246px;
-    height: 35px;
-    padding: 2px;
-    margin: 2px;
-    transform: translate(602px,113px);
-    font-size: 14px;
+#down
+{
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+}
+#sign
+{
+	padding-left: 120px;
+}
+input
+{
+	border: 0px solid transparent;
+	border-radius: 25px;
+	padding: 10px;
+	padding-left: 20px;
+	background-color: lightgrey;
+	width: 80%;
 }
