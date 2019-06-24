@@ -14,11 +14,16 @@ body
 	margin: auto;
 	margin-top: 150px;
 	box-shadow: 10px 10px;
-	height: 400px;
+	height: 430px;
 	width: 400px;
 	background-color: #feda6a;
 }
 .label
+{
+	text-align: left;
+	padding-left: 50px;
+}
+#check
 {
 	text-align: left;
 	padding-left: 50px;
