@@ -1,7 +1,52 @@
 hr{
-	height: 10px;
-
+	margin: 0px;
 }
 label{
 	margin-left: 5px;
+}
+nav
+{
+	padding-top: 20px;
+	height: 90px;
+	color: #393f4d;
+	background-color: #feda6a;
+	margin-bottom: 0px;
+}
+.navbar
+{
+	display: block;
+	padding: 20px;
+}
+h2
+{
+	margin-top: 15px;
+	margin-bottom: 0px;
+	background-color: #bfbfbf;
+}
+form
+{
+	background-color: #505050;
+	color: #f2f2f2;
+}
+.row
+{
+	background-color: #393f4d;
+	margin: 0px;
+}
+#kart
+{
+	position: absolute;
+	left: 75%;
+	top: 40%;
+}
+.space
+{
+	height: 101.2px;
+}
+@media (max-width: 1400px)
+{
+	#kart
+	{
+		display: none;
+	}
 }
