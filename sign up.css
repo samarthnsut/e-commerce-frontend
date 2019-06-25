@@ -37,13 +37,13 @@ form
 {
 	position: absolute;
 	left: 75%;
-	top: 40%;
+	top: 60%;
 }
 .space
 {
 	height: 90px;
 }
-@media (max-width: 1400px)
+@media (max-width: 992px)
 {
 	#kart
 	{
