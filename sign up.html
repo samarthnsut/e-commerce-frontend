@@ -3,35 +3,41 @@
 <head>
 	<title>Sign Up</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="sign up.css">
 </head>
 <body>
-     <h1 class="text-center">SIGN UP</h1>
+  <nav class="navbar fixed-top navbar-light" style="text-align: center;">
+  <h1 class="text-center">SIGN UP</h1>
+</nav>
+<br><br><br>
      <hr>
       <h2>Personal details</h2>
-     <form id="sign">
-        <div class="form-group col-xl-6 form-row">
-    	   <div class="col-xl-12 col-md-6">
+     <form class="needs-validation" id="sign">
+        <div class="form-group col-lg-6 form-row">
+    	   <div class="col-lg-12 col-md-6 space">
                   <label>First Name</label>
-                  <input type="text" class="form-control" placeholder="First Name" aria-describedby="basic-addon1"><br><br>
+                  <input type="text" class="form-control" placeholder="First Name" aria-describedby="basic-addon1" required autofocus><br><br>
             </div>
-            <div class="col-xl-12 col-md-6">
+            <div class="col-lg-12 col-md-6 space">
                    <label>Last Name</label>
-                   <input type="text" name="name"  class="form-control" placeholder="Last Name" aria-describedby="basic-addon1"><br><br>
+                   <input type="text" name="name"  class="form-control" placeholder="Last Name" aria-describedby="basic-addon1" required><br><br>
             </div>
-            <div class="col-xl-12 col-md-6"> 
-                   <label>contact number</label>
-                  <input type="text" name="contact_num"  class="form-control" placeholder="Number" aria-describedby="basic-addon1"><br><br>
+            <div class="col-lg-12 col-md-6 space"> 
+                   <label>Contact Number</label>
+                  <input type="text" name="contact_num"  class="form-control" placeholder="Number" aria-describedby="basic-addon1" required><br><br>
             </div>
-            <div class="col-xl-12 col-md-6">
+            <div class="col-lg-12 col-md-6 space">
                     <label>E-Mail-Address</label>
-                    <input type="email" name="email" class="form-control" placeholder="example@noreply.com" aria-describedby="basic-addon1"><br><br>
+                    <input type="email" name="email" class="form-control" placeholder="example@noreply.com" aria-describedby="basic-addon1" required><br><br>
             </div>
-            <div class="col-xl-12 col-md-6">
+            <div class="col-lg-12 col-md-6 space">
                      <label>Address</label>
-                     <input type="text" name="address"  class="form-control" placeholder="enter text here" aria-describedby="basic-addon1"><br><br>
+                     <input type="text" name="address"  class="form-control" placeholder="Address" aria-describedby="basic-addon1" required><br><br>
             </div>
-            <div class="col-xl-12 col-md-6"> 
+            <div class="col-lg-12 col-md-6 space"> 
                       <label>City</label>
                       <select class="form-control" >
                      	<option>Delhi</option>
@@ -41,20 +47,23 @@
                      	<option>Others</option>
                      </select><br><br>
             </div>
-            <div class="col-xl-12 col-md-6">
+            <div class="col-2">
     
                  <label class="form-check-label"><b>Gender</b></label>
                  <br>
-                 <span><input type="radio"  class="form-control" name="gender" style="display: inline-block; width: 100px; height: 15px;"></span><span>male</span>
-                 <span><input type="radio"  class="form-control" name="gender" style="display: inline-block; width: 100px; height: 15px;"></span><span>female</span><br><br>
+                 <select class="form-control" >
+                      <option>Male</option>
+                      <option>Female</option>
+                      <option>Others</option>
+                     </select><br><br>
             </div>   
     </div>
-    <div class="container">
-    <div class="col-xl-6"  id="button">
+    <div class="col-lg-6"  id="button" style="text-align: center;">
           <button class="btn-primary text-center">Submit</button>
     </div>
-  </div>
-     </form>
     <br><br>
+    <div id="kart"><img src="kart-1.png">
+      <h2>LOGO</h2></div>
+     </form>
 </body>
 </html>
