@@ -41,7 +41,7 @@ form
 }
 .space
 {
-	height: 101.2px;
+	height: 90px;
 }
 @media (max-width: 1400px)
 {
@@ -49,4 +49,16 @@ form
 	{
 		display: none;
 	}
+}
+#account
+{
+	display: inline-block;
+}
+#acc
+{
+	background-color: #bfbfbf;
+	width: 102%;
+	margin-bottom: 20px;
+	margin-left: -2%;
+	padding-left: 2%;
 }
