@@ -98,17 +98,15 @@
 #basic_div2{
   flex-grow: 1;
   display: flex;
-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 #basic_div1{
   width: 100px;
 }
 .p_divs{
-  height: 300px;
-  width: 100px;
-  background-color: green;
+ 
   margin: 20px;
-  border: 2px black solid;
+ 
   padding: 5px;
 
 }
