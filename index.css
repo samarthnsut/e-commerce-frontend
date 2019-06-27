@@ -73,10 +73,42 @@
   border: 3px solid #393f4d;
   border-radius: 40px;  
   position: fixed;
-  top: 90%;
-  left: 95%;
+  top: 800px;
+  left: 1800px;
   height: 70px;
   width: 70px;
   padding-left: 13px;
   padding-top: 13px;
+}
+#main_div{
+  
+  background-color: blue;
+  border: 2px black solid;
+  border-radius: 2px;
+  height: 5000px;
+  display: flex;
+}
+.basic_divs{
+  height: 1200px;
+  width: 150px;
+  background-color: red;
+  padding: 2px;
+  border: 2px black solid;
+}
+#basic_div2{
+  flex-grow: 1;
+  display: flex;
+flex-wrap: wrap;
+}
+#basic_div1{
+  width: 100px;
+}
+.p_divs{
+  height: 300px;
+  width: 100px;
+  background-color: green;
+  margin: 20px;
+  border: 2px black solid;
+  padding: 5px;
+
 }
