@@ -1,6 +1,6 @@
 body
 {
-	background-color: #505050;
+	background-color: #393f4d;
 }
 hr{
 	margin: 0px;
@@ -29,7 +29,7 @@ h2
 }
 form
 {
-	background-color: #505050;
+	background-color: #393f4d;
 	color: #f2f2f2;
 }
 .row
@@ -40,14 +40,14 @@ form
 #kart
 {
 	position: absolute;
-	left: 75%;
-	top: 60%;
+	left: 65%;
+	top: 55%;
 }
 .space
 {
 	height: 90px;
 }
-@media (max-width: 992px)
+@media (max-width: 1197px)
 {
 	#kart
 	{
