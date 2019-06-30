@@ -1,3 +1,7 @@
+html
+{
+  height: 100%;
+}
 /* Style the navbar */
 #navbar {
   overflow: hidden;
@@ -31,6 +35,11 @@
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 60px;
+}
+body
+{
+  min-height: 100%;
+  background-color: #f2f2f2;
 }
 #topdiv{
   background-color: #feda6a;
@@ -73,8 +82,8 @@
   border: 3px solid #393f4d;
   border-radius: 40px;  
   position: fixed;
-  top: 800px;
-  left: 1800px;
+  top: 90%;
+  left: 95%;
   height: 70px;
   width: 70px;
   padding-left: 13px;
@@ -82,25 +91,27 @@
 }
 #main_div{
   
-  background-color: blue;
+  background-color: #f2f2f2;
   border: 2px black solid;
   border-radius: 2px;
-  height: 5000px;
-  display: flex;
+  /*display: flex;*/
+  height: 100%;
 }
-.basic_divs{
-  height: 1500px;
-  width: 150px;
+.basic_divs{d
   background-color: red;
   padding: 2px;
   border: 2px black solid;
 }
 #basic_div2{
   flex-grow: 1;
+  width: 100%;
+  justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
+  background-color: #f2f2f2;
 }
 #basic_div1{
+  background-color: #f2f2f2;
   width: 100px;
 }
 .p_divs{
@@ -109,13 +120,33 @@
  
   padding: 5px;
 
-  transform: translateY(-100px);
+/*  transform: translateY(-100px);*/
 
+}
+#cards
+{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  justify-content: space-around;
 }
 #car_div{
   height:250px;
   width: 900px;
-  padding: 5px;
   margin: 5px;
-  border: 4px black solid;
+  border: 1px black solid;
+}
+@media (max-width: 1500px)
+{
+  #kart
+  {
+    display: none;
+  }
+}
+#cart
+{
+  height: 40px;
+  width: 40px;
 }
