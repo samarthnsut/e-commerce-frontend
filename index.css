@@ -91,16 +91,11 @@ body
 }
 #main_div{
   
-  background-color: #f2f2f2;
+  background-color: #1d1e22;
   border: 2px black solid;
   border-radius: 2px;
   /*display: flex;*/
   height: 100%;
-}
-.basic_divs{d
-  background-color: red;
-  padding: 2px;
-  border: 2px black solid;
 }
 #basic_div2{
   flex-grow: 1;
@@ -108,20 +103,10 @@ body
   justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
-  background-color: #f2f2f2;
-}
-#basic_div1{
-  background-color: #f2f2f2;
-  width: 100px;
+  background-color: #1d1e22;
 }
 .p_divs{
- 
   margin: 20px;
- 
-  padding: 5px;
-
-/*  transform: translateY(-100px);*/
-
 }
 #cards
 {
@@ -149,4 +134,49 @@ body
 {
   height: 40px;
   width: 40px;
+}
+.press
+{
+  background: #feda6a;
+  border: #feda6a 4px solid;
+  color: #1d1e22;
+  border-radius: 0px;
+  box-shadow: 4px 4px rgb(48, 46, 46); 
+  width: 150px;
+  margin: auto;
+  text-align: center;
+}
+@keyframes slide
+{
+  0%{
+    color: #1d1e22;
+    background: #feda6a;
+    border: 4px #feda6a solid;
+  }
+  100%{
+    width: 90%;
+    color: #1d1e22;
+    background: #feda6a;
+    border: 4px #feda6a solid;
+    box-shadow: 2px 2px black;
+  }
+}
+.press:hover
+{
+  animation-name: slide;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+.card
+{
+  background: #393f42;
+  border-radius: 0px;
+}
+
+.back {
+  outline: solid 0px #393f42;
+  transition: outline 0.3s linear; /* Increased margin since the outline expands outside the element */
+}
+
+.back:hover { outline-width: 5px; 
 }
