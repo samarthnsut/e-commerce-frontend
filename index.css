@@ -59,7 +59,7 @@
   color: #f2f2f2;
   top: 30%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 60px;
+  font-size: 300%;
   font-weight: 1;
   position: absolute;
 
@@ -76,7 +76,7 @@ body
   color: #f2f2f2;
   top: 40%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 30px;
+  font-size: 185%;
   font-weight: 1;
   position: absolute;
   animation-name: slide2;
@@ -88,7 +88,7 @@ body
   color: #f2f2f2;
   top: 47%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 40px;
+  font-size: 240%;
   font-weight: 1;
   position: absolute;
   animation-name: slide3;
@@ -97,14 +97,14 @@ body
 }
 #d4
 {
-  padding: 20px;
+  padding: 1%;
   background-color: #feda6a;
   position: absolute;
   top: 57%;
-  left: 44.7%;
+  left: 44%;
   text-decoration: none;
   color: #1d1e22;
-  font-size: 20px;
+  font-size: 130%;
   animation: slide4;
   animation-duration: 2.5s;
   animation-fill-mode: forwards;
@@ -115,11 +115,11 @@ body
   position: absolute;
   left: 88%;
   top: 2%;
-  font-size: 20px;
+  padding: 0.5%;
+  font-size: 100%;
   font-family: sans-serif;
   text-decoration: none;
   background-color: #feda6a;
-  letter-spacing: 1px;
   color: #1d1e22;
   animation: slide4;
   animation-duration: 2.5s;
@@ -131,11 +131,10 @@ body
   position: absolute;
   left: 93%;
   top: 2%;
-  font-size: 20px;
+  font-size: 100%;
+  padding: 0.5%;
   font-family: sans-serif;
-  width: 85px;
   background-color: #feda6a;
-  letter-spacing: 1px;
   color: black;
   animation: slide4;
   animation-duration: 2.5s;
