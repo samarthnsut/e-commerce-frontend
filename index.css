@@ -1,182 +1,137 @@
-html
+@keyframes slide1
 {
-  height: 100%;
+  0%
+  {
+    left: -20%;
+  }
+  100%
+  {
+    left: 44%;
+  }
 }
-/* Style the navbar */
-#navbar {
-  overflow: hidden;
-  background-color: #393f4d;
+@keyframes slide2
+{
+  0%
+  {
+    left: -60%;
+  }
+  50%
+  {
+    left: -30%;
+  }
+  100%
+  {
+    left: 35%;
+  }
 }
-
-/* Navbar links */
-#navbar a {
-  float: left;
-  display: block;
+@keyframes slide3
+{
+  0%
+  {
+    left: -60%;
+  }
+  70%
+  {
+    left: -35%;
+  }
+  100%
+  {
+    left: 34%;
+  }
+}
+@keyframes slide4
+{
+  0%
+  {
+    opacity: 0;
+  }
+  75%
+  {
+    opacity: 0;
+  }
+  100%
+  {
+    opacity: 1;
+  }
+}
+#d1
+{
   color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
-  padding-left: 50px;
-  padding-right: 50px;
-  text-decoration: none;
-}
-
-/* Page content */
-.content {
-  padding: 16px;
-}
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 60px;
+  top: 30%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 60px;
+  font-weight: 1;
+  position: absolute;
+  animation-name: slide1;
+  animation-duration: .7s;
+  animation-fill-mode: forwards;
 }
 body
 {
-  min-height: 100%;
-  background-color: #f2f2f2;
+  background: #1d1e22;
 }
-#topdiv{
-  background-color: #feda6a;
-  width: 100%;
-  height: 80px;
-  display: flex;
-  margin: 0px;
-  margin-right: 0px;
-}
-.td{
-  padding: 25px;
-  padding-right: 4px;
-  padding-left: 4px;
-  font-weight: bold;
-  color: #393f4d;
-  height: 80px;
-}
-#fb
+#d2
 {
-  border: 0px solid;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px; 
-  position: fixed;
-  top: 400px;
-  left: -5px;
-}
-#twit
-{
-  border: 0px solid;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px; 
-  position: fixed;
-  top: 452px;
-  left: -5px;
-}
-#kart
-{
-  background-color: white;
-  padding: 10px;
-  border: 3px solid #393f4d;
-  border-radius: 40px;  
-  position: fixed;
-  top: 90%;
-  left: 95%;
-  height: 70px;
-  width: 70px;
-  padding-left: 13px;
-  padding-top: 13px;
-}
-#main_div{
-  
-  background-color: #1d1e22;
-  border: 2px black solid;
-  border-radius: 2px;
-  /*display: flex;*/
-  height: 100%;
-}
-#basic_div2{
-  flex-grow: 1;
-  width: 100%;
-  justify-content: space-around;
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #1d1e22;
-}
-.p_divs{
-  margin: 20px;
-}
-#cards
-{
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 10%;
-  padding-right: 10%;
-  text-align: center;
-  justify-content: space-around;
-}
-#car_div{
-  height:250px;
-  width: 900px;
-  margin: 5px;
-  border: 1px black solid;
-}
-@media (max-width: 1500px)
-{
-  #kart
-  {
-    display: none;
-  }
-}
-#cart
-{
-  height: 40px;
-  width: 40px;
-}
-.press
-{
-  background: #feda6a;
-  border: #feda6a 4px solid;
-  color: #1d1e22;
-  border-radius: 0px;
-  box-shadow: 4px 4px rgb(48, 46, 46); 
-  width: 150px;
-  margin: auto;
-  text-align: center;
-}
-@keyframes slide
-{
-  0%{
-    color: #1d1e22;
-    background: #feda6a;
-    border: 4px #feda6a solid;
-  }
-  100%{
-    width: 90%;
-    color: #1d1e22;
-    background: #feda6a;
-    border: 4px #feda6a solid;
-    box-shadow: 2px 2px black;
-  }
-}
-.press:hover
-{
-  animation-name: slide;
-  animation-duration: .5s;
+  color: #f2f2f2;
+  top: 40%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: 1;
+  position: absolute;
+  animation-name: slide2;
+  animation-duration: 1.4s;
   animation-fill-mode: forwards;
 }
-.card
+#d3
 {
-  background: #393f42;
-  border-radius: 0px;
+  color: #f2f2f2;
+  top: 47%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  font-weight: 1;
+  position: absolute;
+  animation-name: slide3;
+  animation-duration: 2.1s;
+  animation-fill-mode: forwards;
 }
-
-.back {
-  outline: solid 0px #393f42;
-  transition: outline 0.3s linear; /* Increased margin since the outline expands outside the element */
+#d4
+{
+  padding: 20px;
+  background-color: #feda6a;
+  position: absolute;
+  top: 57%;
+  left: 44.7%;
+  text-decoration: none;
+  color: #1d1e22;
+  font-size: 20px;
+  animation: slide4;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+  box-shadow: 4px 4px rgb(71, 70, 70);
 }
-
-.back:hover { outline-width: 5px; 
+#d5
+{
+  position: absolute;
+  left: 90%;
+  top: 2%;
+  font-size: 20px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  color: #f2f2f2;
+  animation: slide4;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+}
+#d6
+{
+  position: absolute;
+  left: 95%;
+  top: 2%;
+  font-size: 20px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  color: #f2f2f2;
+  animation: slide4;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
 }
