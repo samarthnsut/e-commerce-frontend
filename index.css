@@ -62,7 +62,8 @@
   font-size: 60px;
   font-weight: 1;
   position: absolute;
-  animation-name: slide1;
+
+ animation-name: slide1;
   animation-duration: .7s;
   animation-fill-mode: forwards;
 }
@@ -112,26 +113,32 @@ body
 #d5
 {
   position: absolute;
-  left: 90%;
+  left: 88%;
   top: 2%;
   font-size: 20px;
   font-family: sans-serif;
+  text-decoration: none;
+  background-color: #feda6a;
   letter-spacing: 1px;
-  color: #f2f2f2;
+  color: #1d1e22;
   animation: slide4;
   animation-duration: 2.5s;
   animation-fill-mode: forwards;
+  box-shadow: 4px 4px rgb(71, 70, 70);
 }
 #d6
 {
   position: absolute;
-  left: 95%;
+  left: 93%;
   top: 2%;
   font-size: 20px;
   font-family: sans-serif;
+  width: 85px;
+  background-color: #feda6a;
   letter-spacing: 1px;
-  color: #f2f2f2;
+  color: black;
   animation: slide4;
   animation-duration: 2.5s;
   animation-fill-mode: forwards;
+  box-shadow: 4px 4px rgb(71, 70, 70);
 }
