@@ -47,7 +47,7 @@
   }
   100%
   {
-    left: 34%;
+    left: 40%;
   }
 }
 @keyframes slide4
@@ -98,7 +98,7 @@ body
 {
   color: #f2f2f2;
   top: 47%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Amatic SC;
   font-size: 240%;
   font-weight: 1;
   position: absolute;
