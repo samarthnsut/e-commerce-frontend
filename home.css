@@ -48,6 +48,7 @@ body
   display: flex;
   margin: 0px;
   margin-right: 0px;
+  box-sizing: border-box;
 }
 .td{
   padding: 25px;
@@ -180,6 +181,51 @@ body
 
 .back:hover { outline-width: 5px; 
 }
-.link:hover {
- font-size: 20px;
-            }
+#sign
+{
+  transform: scale(1, 0);
+  transform-origin: 100% 100%;
+  transition: transform ease-in-out 250ms;
+}
+#signin:hover #sign
+{
+  transform: scale(1, 1);
+}
+.link
+{
+  position: relative;
+}
+.link::before
+{
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0%;
+  width: 95%;
+  height: 2px;
+  background-color: #f2f2f2;
+  transform: scale(0, 1);
+  transform-origin: 0% 0%;
+  transition: transform ease-in-out 250ms;
+}
+.link::after
+{
+  content: '';
+  position: absolute;
+  display: block;
+  bottom: 0%;
+  width: 95%;
+  height: 2px;
+  background-color: #f2f2f2;
+  transform: scale(0, 1);
+  transform-origin: 0% 0%;
+  transition: transform ease-in-out 250ms;
+}
+.link:hover::before
+{
+  transform: scale(1,1);
+}
+.link:hover::after
+{
+  transform: scale(1,1);
+}
