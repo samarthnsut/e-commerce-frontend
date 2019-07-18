@@ -289,3 +289,10 @@ body
     display: none;
   }
 }
+@media (max-width: 970px)
+{
+  #basic_div2
+  {
+    display: none;
+  }
+}
