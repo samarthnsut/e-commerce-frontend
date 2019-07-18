@@ -19,7 +19,12 @@ html
   padding-right: 50px;
   text-decoration: none;
 }
-
+#logo
+{
+  width: 60%;
+  height: 100%;
+  float: right;
+}
 /* Page content */
 .content {
   padding: 16px;
@@ -59,6 +64,11 @@ body
 {
   font-size: 2em;
   font-weight: bold;
+  text-align: right;
+  padding-top: 15px;
+  font-family: Bigelow Rules;
+  letter-spacing: 0.23em;
+  font-weight: 700;
 }
 .td{
   padding: 25px;
