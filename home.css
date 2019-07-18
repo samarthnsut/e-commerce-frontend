@@ -194,6 +194,7 @@ body
 .link
 {
   position: relative;
+  color: #f2f2f2;
 }
 .link::before
 {
@@ -201,7 +202,7 @@ body
   position: absolute;
   display: block;
   top: 0%;
-  height: 0.1em;
+  height: 0.2em;
   left: 0%;
   right: 5%;
   background-color: #f2f2f2;
@@ -217,11 +218,16 @@ body
   bottom: 0%;
   left: 0%;
   right: 5%;
-  height: 2px;
+  height: 0.2em;
   background-color: #f2f2f2;
   transform: scale(0, 1);
   transform-origin: 100% 0%;
   transition: transform ease-in-out 250ms;
+}
+#navbar > a:hover
+{
+  transition: color ease-in-out 250ms;
+  color: rgb(165, 158, 158);
 }
 .link:hover::before
 {
