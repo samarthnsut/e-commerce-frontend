@@ -303,6 +303,15 @@ body
 {
   transform: scale(1);
 }
+#terms
+{
+  color: white;
+  text-align: center;
+}
+span
+{
+  margin: 0px 15px 0px 15px;
+}
 @media (max-width: 1200px)
 {
   #td2,#td1
