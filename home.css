@@ -218,7 +218,7 @@ body
   height: 2px;
   background-color: #f2f2f2;
   transform: scale(0, 1);
-  transform-origin: 0% 0%;
+  transform-origin: 100% 0%;
   transition: transform ease-in-out 250ms;
 }
 .link:hover::before
@@ -228,4 +228,29 @@ body
 .link:hover::after
 {
   transform: scale(1,1);
+}
+#kart-pop
+{
+  position: relative;
+  text-align: left;
+  padding-left: 2em;
+  padding-top: 20px;
+}
+#kart-pop::after
+{
+  position: absolute;
+  content: 'Cart';
+  display: block;
+  left: 2em;
+  transform: scale(0);
+  transition: transform cubic-bezier(0, 1.3, 0.58, 1) 400ms;
+}
+#kart-pop:hover
+{
+  transition: padding-top cubic-bezier(0, 0, 0, 0.96) 400ms;
+  padding-top: 10px; 
+}
+#kart-pop:hover::after
+{
+  transform: scale(1);
 }
