@@ -201,8 +201,9 @@ body
   position: absolute;
   display: block;
   top: 0%;
-  width: 95%;
-  height: 2px;
+  height: 0.1em;
+  left: 0%;
+  right: 5%;
   background-color: #f2f2f2;
   transform: scale(0, 1);
   transform-origin: 0% 0%;
@@ -214,7 +215,8 @@ body
   position: absolute;
   display: block;
   bottom: 0%;
-  width: 95%;
+  left: 0%;
+  right: 5%;
   height: 2px;
   background-color: #f2f2f2;
   transform: scale(0, 1);
@@ -247,7 +249,7 @@ body
 }
 #kart-pop:hover
 {
-  transition: padding-top cubic-bezier(0, 0, 0, 0.96) 400ms;
+  transition: padding-top cubic-bezier(0, 0, 0, 0.96) 300ms;
   padding-top: 10px; 
 }
 #kart-pop:hover::after
