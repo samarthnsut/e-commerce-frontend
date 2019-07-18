@@ -204,10 +204,28 @@ body
 #sign
 {
   transform: scale(1, 0);
+  position: relative;
   transform-origin: 100% 100%;
   transition: transform ease-in-out 250ms;
 }
 #signin:hover #sign
+{
+  transform: scale(1, 1);
+}
+#signin::after
+{
+  position: absolute;
+  content: '';
+  width: 50%;
+  height: 5px;
+  left: 27%;
+  bottom: 0px;
+  background: #393f42;
+  display: block;
+  transform: scale(0, 1);
+  transition: transform ease-in-out 250ms;
+}
+#signin:hover::after
 {
   transform: scale(1, 1);
 }
