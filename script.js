@@ -26,7 +26,7 @@ for(var i=0;i<menu.length;i++)
             return;
         }
         window.scrollBy(0,50);
-        },50)
+        },20)
         
     })
 }
