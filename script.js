@@ -5,9 +5,9 @@ $(".category").hide();
 
 var menu= document.querySelectorAll("#navbar a");
 
-for(var i=0;i<menu.length;i++)
-{
-    $(menu[i]).click(function(event){
+$.each(menu,function(index,value){
+
+    $(value).click(function(event){
         event.preventDefault();
         targetID=this.textContent.trim().toLowerCase()
         temp = targetID.split(" ")
@@ -25,12 +25,19 @@ for(var i=0;i<menu.length;i++)
             {clearInterval(interval)
             return;
         }
-        window.scrollBy(0,50);
-        },20)
+        window.scrollBy(0,20);
+        },5)
         
     })
-}
+})
 
+$("#men-head").click(function(){
+    $("#men").hide();
+
+})
+$(".press").click(function(){
+    alert("sorry!!!!!   product not available")
+})
 
 
 
