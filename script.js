@@ -1,8 +1,4 @@
 
-$(".category").hide();
-
-
-
 var menu= document.querySelectorAll("#navbar a");
 
 $.each(menu,function(index,value){
